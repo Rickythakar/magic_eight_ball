@@ -1,6 +1,13 @@
 // assigning variables
-let askEightBall = window.prompt("Ask me anything");
+let askEightBall = window.prompt("Ask me a question about your future");
 let eightBallIndex = 0;
+let buttonEl = document.getElementById("button");
+
+buttonEl.addEventListener("click". randomizeAnswer());
+const div = document.getElementById("body");
+const newElement = document.createElement("h1");
+newElement.innerText = responseArray[eightBallIndex];
+
 
 // creating an array
 let responseArray = [
@@ -31,11 +38,10 @@ let responseArray = [
 let randomizeAnswer = () => {
     eightBallIndex = Math.floor(Math.random()) * responseArray.lenght);
     console.log(eightBallIndex);
-
 }
 
-// Inputs in HTML to ask questions 
 
 // Button to submit and Return Response and shake again
+
 
 // CSS styling, 8 Ball Picture
