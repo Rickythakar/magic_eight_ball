@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, gray, blue);
+}
+
+#content {
+    background: white;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#eightball {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius:100%;
+    background: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    font-size: 25px;
+}
