@@ -1,2 +1,2 @@
 # magic_eight_ball
-magic 8 ball
+A Magic 8 Ball application using vanilla javascript
